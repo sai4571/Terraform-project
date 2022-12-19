@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "s3bucketsai"{
+/*resource "aws_s3_bucket" "s3bucketsai"{
     bucket = "s3bucketsaisimple"
     acl = "private"
     versioning {
@@ -7,4 +7,4 @@ resource "aws_s3_bucket" "s3bucketsai"{
     tags = {
         name = "s3 bucket by sai"
     }
-}   
+}*/   
