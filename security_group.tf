@@ -1,6 +1,7 @@
 resource "aws_security_group" "forapache"{
     description = "allow http inbound traffic"
     name = "allow_http"
+    vpc_id = "vpc-0de6d5796a5006b93"
     
     ingress {
         description = "InBound Rules enable"
