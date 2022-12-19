@@ -12,10 +12,10 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
     }
 
-   agent  any
+   /*agent  any
         options {
                 timestamps ()
-                ansiColor('xterm')
+                ansiColor('xterm')*/
             }
     stages {
         stage('checkout') {
