@@ -12,7 +12,7 @@ variable "instances" {
   description = "Total number of resources"
   default     = "1"
 }*/
-variable "iam_users"{
+/*variable "iam_users"{
  type = list(string)
  default = ["sai","babu","cherry"]
-}
+}*/
