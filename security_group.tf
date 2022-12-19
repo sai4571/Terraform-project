@@ -1,4 +1,4 @@
-resource "aws_security_group" "forapache"{
+/*resource "aws_security_group" "forapache"{
     description = "allow http inbound traffic"
     name = "allow_http"
     
@@ -20,5 +20,5 @@ resource "aws_security_group" "forapache"{
     lifecycle {
       create_before_destroy = "true"
     }
-}
+}*/
 
