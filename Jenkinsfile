@@ -1,4 +1,5 @@
 pipeline {
+    agent any
 
     parameters {
         string(name: 'environment', defaultValue: 'terraform', description: 'Workspace/environment file to use for deployment')
